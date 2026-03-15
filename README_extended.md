@@ -60,7 +60,7 @@ $$\frac{\partial\Pi_i}{\partial q_i} = P + q_i P' - c_i = 0 \Rightarrow a - bQ -
 
 This yields a linear system in the $q_i$ which can be solved to obtain the Cournot equilibrium. In the symmetric-cost case $c_i=c$, closed-form:
 
-$$q_i^* = \frac{a-c}{b(n+1)},\quad Q^*=\frac{n(a-c)}{b(n+1)},\quad P^*=a-bQ^*.$$ 
+$$ q_i^* = \frac{a-c}{b(n+1)},\quad Q^*=\frac{n(a-c)}{b(n+1)},\quad P^*=a-bQ^*. $$ 
 
 We implement a general linear solver to handle heterogeneous costs.
 
